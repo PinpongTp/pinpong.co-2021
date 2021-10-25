@@ -1,0 +1,47 @@
+/* my layout */
+
+.flex {
+    display: flex;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* layout */
+
+.navbar {
+    height: 6em;
+}
+
+.navbar .myname {
+    
+}
+
+/* my style */
+
+#container {
+    min-height: calc(100vh - 152px);
+}
+
+.footer {
+    padding: initial;
+    height: 100px;
+}
+
+#gallery .card {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+#about section.bg {
+    background-position: center;
+    background-size: cover;
+    
+}
