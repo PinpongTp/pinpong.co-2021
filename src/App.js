@@ -7,6 +7,7 @@ import Footer from './layouts/footer'
 import Gallery from './pages/gallery'
 import About from './pages/about'
 import Gitnoe from './pages/note/gitnote'
+import Expressnote from './pages/note/expressnote'
 
 // const About = () => <h1>About</h1>
 const Post = () => <h1>Post</h1>
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/post" component={Post} />
             <Route path="/note/git" component={Gitnoe} />
+            <Route path="/note/express" component={Expressnote} />
             <Route path="/note" component={Note} />
             <Route path="/project" component={Project} />
             <Route path="/gallery" component={Gallery} />

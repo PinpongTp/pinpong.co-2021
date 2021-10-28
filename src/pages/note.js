@@ -19,6 +19,17 @@ const Note = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="section">
+                <div className="container">
+                    <div class="content is-medium">
+                        <Link to="note/express">
+                            <h2 class="subtitle is-4">October 28, 2021</h2>
+                            <h1 class="title">วิธีการใช้งาน express อย่างง่าย</h1>
+                        </Link>
+                    </div>
+                </div>
+            </section>
             
         </div>
     )
