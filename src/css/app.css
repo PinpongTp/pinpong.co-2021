@@ -1,47 +1,83 @@
 /* my layout */
 
 .flex {
-    display: flex;
+  display: flex;
 }
 .flex-center {
-    justify-content: center;
+  justify-content: center;
+}
+.flex-end {
+  justify-content: end;
+}
+.flex-around {
+  justify-content: space-around;
+}
+.flex-between {
+  justify-content: space-between;
 }
 .flex-column {
-    flex-direction: column
+  flex-direction: column;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
+}
+
+.fit {
+  width: 100%;
+}
+
+.pad {
+  padding: 0.75rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #ff8d07;
+  color: #fff;
+}
+
+::selection {
+  background: #ff8d07;
+  color: #fff;
 }
 
 /* layout */
 
 .navbar {
-    height: 6em;
+  height: 100px;
 }
 
 .navbar .myname {
-    
+}
+
+/* set default */
+
+.PermanentMarker {
+  font-family: "Permanent Marker", cursive;
 }
 
 /* my style */
 
 #container {
-    min-height: calc(100vh - 152px);
+  min-height: calc(100vh - 200px);
 }
 
 .footer {
-    padding: initial;
-    height: 100px;
+  padding: initial;
+  height: 100px;
 }
 
 #gallery .card {
-    max-width: 500px;
-    margin: 2rem auto;
+  max-width: 500px;
+  margin: 2rem auto;
 }
 
 #about section.bg {
-    background-position: center;
-    background-size: cover;
-    
+  background-position: center;
+  background-size: cover;
 }

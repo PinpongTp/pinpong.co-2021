@@ -1,7 +1,7 @@
 // import React from "react";
 // import {Link} from 'react-router-dom'
 
-const Expressnote = () => {
+const ExpressNote = () => {
 
 
     return (
@@ -15,7 +15,7 @@ const Expressnote = () => {
                         <h2 class="subtitle is-4">October 28, 2021</h2>
                         <h1 class="title">วิธีการใช้งาน express อย่างง่าย</h1>
                         <a target="_blank" href="https://www.section.io/engineering-education/how-to-setup-nodejs-express-for-react/">
-                        >> https://www.section.io/engineering-education/how-to-setup-nodejs-express-for-react/
+                         https://www.section.io/engineering-education/how-to-setup-nodejs-express-for-react/
                         </a>
                     </div>
                 </div>
@@ -26,4 +26,4 @@ const Expressnote = () => {
 }
 
 
-export default Expressnote 
+export default ExpressNote 

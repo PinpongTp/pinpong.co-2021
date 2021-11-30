@@ -1,36 +1,79 @@
 // import React from "react";
-import {Link, Route, useParams, useRouteMatch } from 'react-router-dom'
+import { Link, useParams, useRouteMatch } from 'react-router-dom'
 
 const Note = () => {
 
-    const { url, path } = useRouteMatch()
+    // const { url, path } = useRouteMatch()
     console.log(useRouteMatch());
 
     return (
         <div>
-            <section className="section">
+            <section class="categories">
                 <div className="container">
-                    <div class="content is-medium">
-                        <Link to="note/git">
-                            <h2 class="subtitle is-4">October 28, 2021</h2>
-                            <h1 class="title">ทดสอบใส่ข้อมูลด้วย Git</h1>
-                            <p>เพื่อเป็นการเก็บข้อมูลว่าได้บันทึกอะไรไปบ้าง</p>
-                        </Link>
+                <div class="columns is-multiline">
+                    <div class="column is-6">
+                    <div class="category">
+                            <h1 class="title is-5">
+                                FAQs <span>7 articles</span>
+                            </h1>
+                            <hr/>
+                            <ul>
+                                <li>
+                                    Why Isn't My Custom Profile Data Showing on My Tickets?
+                                </li>
+                                <li>
+                                    Why Won't My Gmail SMTP Settings Work?
+                                </li>
+                                <li>
+                                    Is There a Customer Portal My Users Can Log in To?
+                                </li>
+                                <li>
+                                    How Do I Export My Contacts, Tickets, Reports?
+                                </li>
+                                <li>
+                                    How Do I Search for a Number?
+                                </li>
+                            </ul>
+                            <h3 class="category-more">View All
+                                {/* <i class ="far fa-arrow-right icon-padding-left"></i> */}
+                            </h3>
+                        </div>
                     </div>
+                    <div class="column is-6">
+                        <div class="category">
+                            <h1 class="title is-5">
+                                FAQs <span>7 articles</span>
+                            </h1>
+                            <hr/>
+                            <ul>
+                                <li>
+                                    Why Isn't My Custom Profile Data Showing on My Tickets?
+                                </li>
+                                <li>
+                                    Why Won't My Gmail SMTP Settings Work?
+                                </li>
+                                <li>
+                                    Is There a Customer Portal My Users Can Log in To?
+                                </li>
+                                <li>
+                                    How Do I Export My Contacts, Tickets, Reports?
+                                </li>
+                                <li>
+                                    {/* <i class="fas fa-caret-right fa-xs icon-padding-right"></i> */}
+                                    How Do I Search for a Number?
+                                </li>
+                            </ul>
+                            <h3 class="category-more">View All
+                                {/* <i class ="far fa-arrow-right icon-padding-left"></i> */}
+                            </h3>
+                        </div>
+                    </div>
+
                 </div>
+                </div>
+                
             </section>
 
-            <section className="section">
-                <div className="container">
-                    <div class="content is-medium">
-                        <Link to="note/express">
-                            <h2 class="subtitle is-4">October 28, 2021</h2>
-                            <h1 class="title">วิธีการใช้งาน express อย่างง่าย</h1>
-                        </Link>
-                    </div>
-                </div>
-            </section>
-            
         </div>
     )
 }

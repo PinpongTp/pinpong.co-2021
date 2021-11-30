@@ -14,7 +14,9 @@ const About = () => {
             <section className="section">
                 <div className="container">
                     <p className="title is-4">About me</p>
-                    <p>สวัสดีครับ ผมปิ่นพงศ์เป็น Developer ผ่านประสบการณ์ทำงานสายเว็บไซต์มากว่า 5 ปี ใช้ PHP และ JS เป็นหลัก (Codeigniter & Angularjs) ปัจจุบันออกแบบพัฒนาและดูแลเว็บไซต์ e-Learning โดยใช้ระบบ LMS และ LRS จาก Moodle
+                    <p>สวัสดีครับ ผมปิ่นพงศ์ เป็น Developer ผ่านประสบการณ์ทำงานสายเว็บไซต์มากว่า 5 ปี ใช้ 
+                        PHP และ JS เป็นหลัก (Codeigniter & Angularjs) 
+                        ปัจจุบันออกแบบพัฒนาและดูแลเว็บไซต์ e-Learning ด้วย Moodle LRS
                     พัฒนา Application บ้างเล็กน้อย ด้วย Flutter </p>
                 </div>
             </section>
@@ -27,12 +29,16 @@ const About = () => {
                             <td>Pinpong Tongpat</td>
                         </tr>
                         <tr>
-                            <td>Age :</td>
-                            <td>27 years old</td>
+                            <td>ชื่อ :</td>
+                            <td>ปิ่นพงศ์ ทองพัด</td>
                         </tr>
                         <tr>
-                            <td>Name :</td>
-                            <td>Pinpong Tongpat</td>
+                            <td>อายุ :</td>
+                            <td>27 ปี</td>
+                        </tr>
+                        <tr>
+                            <td>ภูมิลำเนา :</td>
+                            <td>จังหวัดพิษณุโลก</td>
                         </tr>
                     </table>
                 </div>
@@ -41,40 +47,65 @@ const About = () => {
                 <div className="container">
                     <p className="title is-4">EXPERIENCE</p>
                     <table class="table">
-                    <tr>
-                            <td>2019 - Present</td>
-                            <td><b>Dinsor Advertising Co., Ltd.</b><br/>
-                            <b>Developer</b><br/>
-                            ก่อนหน้านี้บริษัทรับทำเว็บไซต์ทั่วไป มีเว็บไซต์ข่าวการเมืองเป็นของตัวเองและเว็บไซต์ E-commerce ปัจจุบันเน้นไปที่เว็บไซต์ E-learning และ App สำหรับสิทเก่าของมหาวิทยาลัย
-                            ตัว App พัฒนาด้วย flutter และเว็บไซตื E-learning พัฒนาด้วย angularjs และ codeigniter เชื่อมกับ moodle ให้กับกระทรวงพาณิชย์ 
-                            และกำลังจะพัฒนาเป็นของตัวเองเพื่อให้บริการกับมหาวิทยลัยหรือสถาบันต่างๆ
-                            ทางบริษัทมีการออกงาน event บ้างในบางครั้งเพื่อเป็นการโปรโหมดกิจกรรมให้กับลูกค้า ในส่วนของงาน event ผมได้รับผิดชอบดูแลการถ่ายทอดสด และเขียนระบบเพิ่มเติมในการจัด event ผ่าน zoom.us 
-                            ในส่วนของทีม Developer ผมเป็น head ทีมเล็กวางแผน ออกแบบและพัฒนาตามความต้องการของลูกค้า
-                            </td>
-                        </tr>
                         <tr>
                             <td>2019 - Present</td>
                             <td><b>Dinsor Advertising Co., Ltd.</b><br/>
                             <b>Developer</b><br/>
-                            บริษัทรับทำเว็บไซต์ และ Advertising เป็นเจ้าของเว็บไซต์ข่าวการเมืองและ E-commerce ปัจจุบันเน้นไปที่เว็บไซต์ E-learning และ App สำหรับศิษย์เก่าของมหาวิทยาลัย
+                            รับผิดชอบเป็น head ทีมพัฒนาทีมเล็กวางแผน ออกแบบพัฒนาเว็บไซต์และแอปพลิเคชันตามความต้องการของลูกค้า นำประชุม ประสานงานกับ AEและลูกค้า เสนองาน รับrequirementงาน และจัดการworkshop 
+                            <br/>
+                            <br/>
+                            บริษัทรับทำเว็บไซต์ และ Advertising เป็นเจ้าของเว็บไซต์ข่าวการเมืองและ E-commerce ปัจจุบันเน้นไปที่เว็บไซต์ E-learning และ แอปพลิเคชันสำหรับศิษย์เก่าของมหาวิทยาลัย
                             เว็บไซต์ E-learning พัฒนาด้วย Angularjs และ Codeigniter เชื่อมกับ Moodle ให้กับกระทรวงพาณิชย์ 
                             ตัว App พัฒนาด้วย flutter ให้กับสำนักศิษย์เก่าธรรมศาสตร์
                             และกำลังจะพัฒนาเป็นของตัวเองเพื่อให้บริการกับมหาวิทยลัยหรือสถาบันต่างๆ
-                            ทางบริษัทมีการออกงาน event บ้างในบางครั้งเพื่อเป็นการโปรโหมดกิจกรรมให้กับลูกค้า ในส่วนของงาน event ผมได้รับผิดชอบดูแลการถ่ายทอดสด และเขียนระบบเพิ่มเติมในการจัด event ผ่าน zoom.us 
-                            ในส่วนของทีม Developer ผมเป็น head ทีมเล็กวางแผน ออกแบบและพัฒนาตามความต้องการของลูกค้า
+                            ทางบริษัทมีการออกงาน event บ้างในบางครั้งเพื่อเป็นการโปรโหมดกิจกรรมให้กับลูกค้า
+                            
                             </td>
                         </tr>
                         <tr>
                             <td>2017 - 2018</td>
                             <td><b>Hotel Job Co., Ltd.</b><br/>
                             <b>Web developer</b><br/>
-                            บริษัทพัฒนาเว็บไซต์หางาน สำหรับกลุ่มงานโรงแรม มีในกลุ่มงานอื่นๆด้วย แต่เน้นไปที่กลุ่มงานโรงแรมเป็นหลัก บริษัทมีการจัด event ใหญ่คืองาน Hotel Job fair 
-                            ได้มีส่วนรวมในการออกแบบและพัฒนา ขั้นตอนการสมัครงานในงาน เพื่อให้เกิดความแออัดน้อย และสดวกในการสัมพาดงาน
+                            เป็น website programmer พัฒนาระบบตามหัวหน้าทีม รวมประชุมและวางแผนงานต่างๆ
+                            <br/>
+                            <br/>
+                            บริษัทพัฒนาเว็บไซต์หางาน สำหรับกลุ่มงานโรงแรม บริษัทมีการจัด event ใหญ่คืองาน Hotel Job fair 
+                            ได้มีส่วนรวมในการออกแบบและพัฒนา ขั้นตอนการสมัครงานในงาน เพื่อให้เกิดความแออัดน้อย และสดวกในการสัมภาษณ์งาน
                             </td>
                         </tr>
                     </table>
 
                     
+                </div>
+            </section>
+            <section className="section">
+                <div className="container">
+                    <p className="title is-4">SKILL</p>
+                    <table class="table">
+                        <tr>
+                            <td>Developer skill</td>
+                            <td>PHP : Codeigniter, Phalcon<br/>
+                             JS : Jquery, Angularjs, Nodejs, React, Express <br/>
+                             CSS : Materialize, Bulma, Fullpage<br/>
+                             App : Flutter<br/>
+                             Server : Ubuntu, Nginx<br/>
+                             Other : Git, Postman, Moodle, SQL, bank payment connect, Zoom api, Vimeo api, Unity, Python, Java, Node-RED, PowerBi, cloudflare
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Design skill</td>
+                            <td>สามารถทำงานออกแบบได้ ใช้โปรแกรมที่เกียวกับการออกแบบได้ เช่น Photoshop, Illustrator, Xd <br/>
+                            งานตัดต่อและงานแอนนิเมชั่น Sony vegas, Premiere pro, Flash และอื่นๆ
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Other  skill</td>
+                            <td><b>แก้ไขปัญหาเฉพาะหน้าได้ดี มีความเป็นผู้นำ กล้าแสดงออกกล้าเสนอ เปิดกว้างพร้อมที่จะเรียนรู้สิ่งใหม่ๆ</b><br/>
+                            
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </section>
             <section className="section">
@@ -86,7 +117,7 @@ const About = () => {
                             <td><b>Naresuan University</b><br/>
                             <b>Faculty of Science Information Technology</b><br/>
                             ตอนเรียนมุ้งเน้นไปที่วิชาที่เกี่ยวกับการ Develop โดยที่มหาวิทยาลัยได้มีการสอนทักษะที่สำคัญเช่น OOP, system analysis, System Integration, Project Management และอื่นๆ
-                            ในช่วงที่เรียน ใช้ภาษา  java, swift, vb, c#, html, php และ js ได้ทำโปรเจ็ตจบเป็น web cms สำหรับเด็กประถม 
+                            ในช่วงที่เรียน ใช้ภาษา  java, swift, vb, c#, html, php และ js ได้ทำโปรเจ็คจบเป็น web cms สำหรับเด็กประถม 
                             <br/>
                             <br/>
                             ด้านกิจกรรมผมเป็นประธานสโมสรนิสิตคณะวิทยาศาสตร์ และอุปนายกฝ่ายสนับสนุนของมหาวิทยาลัย

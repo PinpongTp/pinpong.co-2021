@@ -6,12 +6,16 @@ import Nav from './layouts/nav'
 import Footer from './layouts/footer'
 import Gallery from './pages/gallery'
 import About from './pages/about'
-import Gitnoe from './pages/note/gitnote'
-import Expressnote from './pages/note/expressnote'
+import Project from './pages/project'
+
+// note
+import GitNote from './pages/note/gitNote'
+import ExpressNote from './pages/note/expressNote'
+import VimNote from './pages/note/vimNote'
 
 // const About = () => <h1>About</h1>
 const Post = () => <h1>Post</h1>
-const Project = () => <h1>Project</h1>
+// const Project = () => <h1>Project</h1>
 
 class App extends Component {
   
@@ -27,8 +31,9 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/post" component={Post} />
-            <Route path="/note/git" component={Gitnoe} />
-            <Route path="/note/express" component={Expressnote} />
+            <Route path="/note/git" component={GitNote} />
+            <Route path="/note/express" component={ExpressNote} />
+            <Route path="/note/vim" component={VimNote} />
             <Route path="/note" component={Note} />
             <Route path="/project" component={Project} />
             <Route path="/gallery" component={Gallery} />

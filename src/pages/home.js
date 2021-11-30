@@ -1,30 +1,27 @@
 // import React from "react";
-// import {Link, Route, useParams, useRouteMatch } from 'react-router-dom'
+import {Link, Route, useParams, useRouteMatch } from 'react-router-dom'
 
 const Home = () => {
 
     return (
         <div>
-            <section className="section">
-                <div className="container">
-                    <h1 className="title">This is my home page.</h1>
-                    <p>This is my home page.</p>
-                </div>
-            </section>
-            <section className="hero is-primary">
+            <section className="hero" style={{ 
+                minHeight: 'calc(100vh - 200px)',
+                flexDirection: 'row',
+                alignItems: 'center'
+                }}>
                 <div className="hero-body">
-                    <p className="title">
-                    Primary hero
-                    </p>
-                    <p className="subtitle">
-                    Primary subtitle
-                    </p>
-                </div>
-            </section>
-            <section className="section">
-                <div className="container">
-                    <h1 className="title">This is my home page.</h1>
-                    <p>This is my home page.</p>
+                    <div className="">
+                        <h1 className="title PermanentMarker" style={{fontSize: "4rem", textAlign: "center"}}>Hello, my name is Pin <br />
+                            I am a web developer</h1>
+
+                        {/* <div className="PermanentMarker text-center" >
+                            <Link to="about" className="pad is-large">I'am</Link>
+                            <Link to="gallery" className="pad">Gallery</Link>
+                            <Link to="note" className="pad">Note</Link>
+                            <Link to="project" className="pad">Projects</Link>
+                        </div> */}
+                    </div>
                 </div>
             </section>
         </div>

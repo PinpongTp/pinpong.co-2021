@@ -1,7 +1,7 @@
 // import React from "react";
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
-const Gitnote = () => {
+const GitNote = () => {
 
 
     return (
@@ -24,4 +24,4 @@ const Gitnote = () => {
 }
 
 
-export default Gitnote
+export default GitNote

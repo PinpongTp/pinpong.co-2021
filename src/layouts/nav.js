@@ -10,7 +10,7 @@ const Nav = () => {
         >
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item title" href="/">
+              <a className="navbar-item title " href="/">
                 PINPONG.co
               </a>
             </div>
