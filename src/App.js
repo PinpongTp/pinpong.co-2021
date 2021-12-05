@@ -4,9 +4,10 @@ import Home from './pages/home'
 import Note from './pages/note'
 import Nav from './layouts/nav'
 import Footer from './layouts/footer'
-import Gallery from './pages/gallery'
 import About from './pages/about'
 import Project from './pages/project'
+import Gallery from './pages/gallery'
+import Contact from './pages/contact'
 
 // note
 import GitNote from './pages/note/gitNote'
@@ -37,6 +38,7 @@ class App extends Component {
             <Route path="/note" component={Note} />
             <Route path="/project" component={Project} />
             <Route path="/gallery" component={Gallery} />
+            <Route path="/contact" component={Contact} />
            
             <Route pate="/:id"> 404 </Route>
           </Switch>

@@ -19,14 +19,18 @@ const Nav = () => {
                 <Link to="/about" className="navbar-item">
                   I'am
                 </Link>
-                <Link to="/gallery" className="navbar-item">
-                  Gallery
-                </Link>
+                
                 <Link to="/note" className="navbar-item">
                   Note
                 </Link>
                 <Link to="/project" className="navbar-item">
                   Projects
+                </Link>
+                <Link to="/gallery" className="navbar-item">
+                  Gallery
+                </Link>
+                <Link to="/contact" className="navbar-item">
+                  Contact
                 </Link>
               </div>
             </div>

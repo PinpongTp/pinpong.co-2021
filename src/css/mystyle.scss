@@ -14,6 +14,7 @@
 $orange: #ff8d07;
 $base: #363636;
 
+
 // Update Bulma's global variables
 $family-sans-serif: "Sarabun", sans-serif;
 $title-family: "Prompt", sans-serif;
@@ -24,8 +25,15 @@ $primary: $orange;
 // $link: $pink;
 $link: $base;
 $link-hover: $orange;
+$navbar-item-hover-background-color: #fff;
+$navbar-item-hover-color: $orange;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+
+$spacing-shortcuts: ("margin": "mg");
+$spacing-horizontal: "h";
+$spacing-vertical: null;
+$spacing-values: ("small": 10px, "medium": 30px, "large": 60px);
 
 // Update some of Bulma's component variables
 // $body-background-color: $beige-lighter;
