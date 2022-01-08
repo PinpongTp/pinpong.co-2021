@@ -13,6 +13,9 @@ import Contact from './pages/contact'
 import GitNote from './pages/note/gitNote'
 import ExpressNote from './pages/note/expressNote'
 import VimNote from './pages/note/vimNote'
+import FirstNote from './pages/note/firstNote'
+import SystemnoteNote from './pages/note/systemnoteNote'
+import WeekNote from './pages/note/weekNote'
 
 // const About = () => <h1>About</h1>
 const Post = () => <h1>Post</h1>
@@ -35,6 +38,9 @@ class App extends Component {
             <Route path="/note/git" component={GitNote} />
             <Route path="/note/express" component={ExpressNote} />
             <Route path="/note/vim" component={VimNote} />
+            <Route path="/note/first" component={FirstNote} />
+            <Route path="/note/systemnote" component={SystemnoteNote} />
+            <Route path="/note/week/1" component={WeekNote} />
             <Route path="/note" component={Note} />
             <Route path="/project" component={Project} />
             <Route path="/gallery" component={Gallery} />

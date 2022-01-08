@@ -8,7 +8,7 @@ const GitNote = () => {
         <div>
             <section className="section">
                 <div className="container">
-                    <div class="content is-medium">
+                    <div class="content">
                         <figure>
                             <img src="/img/note/logo-git.jpg" alt="" />
                         </figure>

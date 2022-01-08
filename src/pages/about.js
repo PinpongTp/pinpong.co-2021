@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const About = () => {
 
     return (
@@ -14,10 +16,9 @@ const About = () => {
             <section className="section">
                 <div className="container">
                     <p className="title is-4">About me</p>
-                    <p>สวัสดีครับ ผมปิ่นพงศ์ เป็น Developer ผ่านประสบการณ์ทำงานสายเว็บไซต์มากว่า 5 ปี ใช้
-                        PHP และ JS เป็นหลัก (Codeigniter & Angularjs)
-                        ปัจจุบันออกแบบพัฒนาและดูแลเว็บไซต์ e-Learning ด้วย Moodle LRS
-                        พัฒนา Application บ้างเล็กน้อย ด้วย Flutter </p>
+                    <p>สวัสดีครับ ผมปิ่นพงศ์ เป็น Developer ผ่านประสบการณ์ทำงานสายเว็บไซต์มากว่า 5 ปี ใช้ PHP และ JS เป็นหลัก (Codeigniter & Angularjs) </p>
+                    <br/>
+                    <p><b>"ภาษาและเครื่องมือเปลี่ยนแปลงไปตลอดเวลา อัลกอริทึมจึงสำคัญที่สุด"</b></p>
                 </div>
             </section>
             <section className="section">
@@ -51,14 +52,12 @@ const About = () => {
                             <td>2019 - Present</td>
                             <td><b>Dinsor Advertising Co., Ltd.</b><br />
                                 <b>Developer</b><br />
-                                รับผิดชอบเป็น head ทีมพัฒนาทีมเล็กวางแผน ออกแบบพัฒนาเว็บไซต์และแอปพลิเคชันตามความต้องการของลูกค้า นำประชุม ประสานงานกับ AEและลูกค้า เสนองาน รับrequirementงาน และจัดการworkshop
+                                รับผิดชอบเป็นหัวหน้าทีมพัฒนา วางแผน ออกแบบพัฒนาเว็บไซต์ (frontend & backend) และแอปพลิเคชันตามความต้องการของลูกค้า นำประชุม เสนองาน ประสานงานกับลูกค้าและผู้เกี่ยวข้อง
                                 <br />
                                 <br />
-                                บริษัทรับทำเว็บไซต์ และ Advertising เป็นเจ้าของเว็บไซต์ข่าวการเมืองและ E-commerce ปัจจุบันเน้นไปที่เว็บไซต์ E-learning และ แอปพลิเคชันสำหรับศิษย์เก่าของมหาวิทยาลัย
-                                เว็บไซต์ E-learning พัฒนาด้วย Angularjs และ Codeigniter เชื่อมกับ Moodle ให้กับกระทรวงพาณิชย์
-                                ตัว App พัฒนาด้วย flutter ให้กับสำนักศิษย์เก่าธรรมศาสตร์
-                                และกำลังจะพัฒนาเป็นของตัวเองเพื่อให้บริการกับมหาวิทยลัยหรือสถาบันต่างๆ
-                                ทางบริษัทมีการออกงาน event บ้างในบางครั้งเพื่อเป็นการโปรโหมดกิจกรรมให้กับลูกค้า
+                                บริษัท Dinsor Advertising รับพัฒนาเว็บไซต์ สื่อโฆษณาและจัดงานสัมมนา 
+                                เป็นเจ้าของเว็บไซต์ข่าวกฎหมายและ E-commerce ปัจจุบันเน้นไปที่เว็บไซต์ E-learning ให้กับกระทรวงพาณิชย์ และแอปพลิเคชันสำหรับศิษย์เก่า 
+                                ให้กับสำนักศิษย์เก่าธรรมศาสตร์
 
                             </td>
                         </tr>
@@ -66,11 +65,11 @@ const About = () => {
                             <td>2017 - 2018</td>
                             <td><b>Hotel Job Co., Ltd.</b><br />
                                 <b>Web developer</b><br />
-                                เป็น website programmer พัฒนาระบบตามหัวหน้าทีม รวมประชุมและวางแผนงานต่างๆ
+                                เป็น Web developer วางแผนงาน ดูแลเว็บไซต์จัดหางานและ พัฒนาระบบตามที่ได้รับมอบหมาย
                                 <br />
                                 <br />
-                                บริษัทพัฒนาเว็บไซต์หางาน สำหรับกลุ่มงานโรงแรม บริษัทมีการจัด event ใหญ่คืองาน Hotel Job fair
-                                ได้มีส่วนรวมในการออกแบบและพัฒนา ขั้นตอนการสมัครงานในงาน เพื่อให้เกิดความแออัดน้อย และสดวกในการสัมภาษณ์งาน
+                                บริษัท Hotel Job พัฒนาเว็บไซต์หางาน สำหรับกลุ่มงานโรงแรมเป็นหลัก, พัฒนาระบบสำหรับจัดงานในงาน Job fair, 
+                                เว็บไซต์ข่าวสารและโปรโมชันสำหรับกลุ่มงานโรงแรม และรับออกแบบเว็บไซต์ให้กับลูกค้ากลุ่มงานโรงแรม 
                             </td>
                         </tr>
                     </table>
@@ -89,19 +88,20 @@ const About = () => {
                                 CSS : Materialize, Bulma, Fullpage<br />
                                 App : Flutter<br />
                                 Server : Ubuntu, Nginx<br />
-                                Other : Git, Postman, Moodle, SQL, bank payment connect, Zoom api, Vimeo api, Unity, Python, Java, Node-RED, PowerBi, cloudflare
+                                Other : Git, Postman, Moodle, SQL, OOP, bank payment connect, SEO,
+                                Zoom api, Vimeo api, SSO, Unity, Python, Java, Node-RED, Docker, 
+                                PowerBi, cloudflare
                             </td>
                         </tr>
                         <tr>
                             <td>Design skill</td>
-                            <td>สามารถทำงานออกแบบได้ ใช้โปรแกรมที่เกียวกับการออกแบบได้ เช่น Photoshop, Illustrator, Xd <br />
-                                งานตัดต่อและงานแอนนิเมชั่น Sony vegas, Premiere pro, Flash และอื่นๆ
+                            <td>สามารถทำงานออกแบบได้ UX UI เข้าใจ Layout ใช้โปรแกรมที่เกียวกับงานออกแบบได้ งานตัดต่อ งานแอนิเมชัน  Flash และอื่นๆ
 
                             </td>
                         </tr>
                         <tr>
                             <td>Other  skill</td>
-                            <td><b>แก้ไขปัญหาเฉพาะหน้าได้ดี มีความเป็นผู้นำ กล้าแสดงออกกล้าเสนอ เปิดกว้างพร้อมที่จะเรียนรู้สิ่งใหม่ๆ</b><br />
+                            <td><b>แก้ไขปัญหาเฉพาะหน้าได้ดี มีความเป็นผู้นำ กล้าคิดกล้าแสดงออก เปิดกว้างพร้อมที่จะเรียนรู้สิ่งใหม่ๆ อัธยาศัยดี</b><br />
 
                             </td>
                         </tr>
@@ -116,17 +116,23 @@ const About = () => {
                             <td>2013 - 2016</td>
                             <td><b>Naresuan University</b><br />
                                 <b>Faculty of Science Information Technology</b><br />
-                                ตอนเรียนมุ้งเน้นไปที่วิชาที่เกี่ยวกับการ Develop โดยที่มหาวิทยาลัยได้มีการสอนทักษะที่สำคัญเช่น OOP, system analysis, System Integration, Project Management และอื่นๆ
-                                ในช่วงที่เรียน ใช้ภาษา  java, swift, vb, c#, html, php และ js ได้ทำโปรเจ็คจบเป็น web cms สำหรับเด็กประถม
+                                ตอนเรียนมุ่งเน้นไปที่วิชาที่เกี่ยวกับการ Develop โดยที่มหาวิทยาลัยได้มีการสอนทักษะที่สำคัญเช่น OOP, 
+                                System analysis, System Integration, Project Management และอื่นๆ ในช่วงที่เรียนใช้ภาษา java, 
+                                swift, vb, c#, php และ js โปรเจ็คจบเป็น web cms สำหรับเด็กประถม
                                 <br />
                                 <br />
-                                ด้านกิจกรรมผมเป็นประธานสโมสรนิสิตคณะวิทยาศาสตร์ และอุปนายกฝ่ายสนับสนุนของมหาวิทยาลัย
+                                ด้านกิจกรรมเป็นประธานสโมสรนิสิตคณะวิทยาศาสตร์ และอุปนายกฝ่ายสนับสนุนสโมสรนิสิตมหาวิทยาลัย
                             </td>
                         </tr>
                         <tr>
                             <td>2008 - 2012</td>
                             <td><b>Janokrong School</b><br />
-                                เป็น Animation ทีมของโรงเรียน มีโอกาสได้เข้าแข่งขันหลายรายการ รายการสำคัญคือ งานศิลปะหัตกรรมนักเรียน ได้รับรางวัล รองชนะเลิศ 1 ปีและ ชนะเลิศ 1 ปี ด้วยการใช้โปรแกรม adoby flash
+                            เป็นตัวแทนโรงเรียนเข้าแข่งขันสร้างการ์ตูน Animation หลายรายการ
+                            รายการสำคัญคือ การสร้างการ์ตูน 2 มิติ งานศิลปะหัตกรรมนักเรียน
+                            <br/>
+                            ปี 2010 ได้รับรางวัล รองชนะเลิศอันดับ 1 ระดับประเทศ และ 
+                            <br/> 
+                            ปี 2011 ได้รับรางวัล ชนะเลิศระดับประเทศ ด้วยการใช้โปรแกรม flash
                             </td>
                         </tr>
                     </table>
@@ -171,9 +177,9 @@ const About = () => {
                                 กำลังมองหางานประจำ <b>front end web developer</b> หรือ  <b>full stack</b><br/> ดาวน์โหลด resume ของผมได้ที่นี้
                             </h2>
                             <form action="example.docs">
-                                <button class="button">
+                                <a href="./resume/resume-Pinpong-Tongpat.pdf" target='_blank' class="button">
                                     Download Resume
-                                </button>
+                                </a>
                             </form>
                         </div>
                     </div>
