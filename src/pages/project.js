@@ -13,9 +13,9 @@ const Project = () => {
     const [init, setInit] = useState(true)
     const [projectList, setProjectList] = useState([]);
     const categories = {
-        1 : 'Website',
-        2 : 'app',
-        3 : 'other'
+        1: 'Website',
+        2: 'Application',
+        3: 'Other'
     }
     const getDataList = () => {
 
@@ -24,6 +24,22 @@ const Project = () => {
             setInit(false)
         })
 
+    }
+
+    const TagsRender = (data) => {
+        let tagsData = data.tagsData
+        if (tagsData && tagsData !== '') {
+            return (
+                <div className='tags'>
+                    {JSON.parse(tagsData).map((tagVal, tagKey) => {
+                        return (
+                            <span className='tag is-primary' key={tagKey}>{tagVal.text}</span>
+                        )
+                    })}
+                </div>
+            )
+        }
+        return <></>
     }
 
     useEffect(() => {
@@ -39,10 +55,10 @@ const Project = () => {
 
     return (
         <div>
-            <section class="featured section">
+            <section className="featured section">
                 <div className="container">
                     <div>
-                        <h1 class="title is-5">
+                        <h1 className="title is-5">
                             เกริ่นนำ
                         </h1>
                         <p>
@@ -68,9 +84,10 @@ const Project = () => {
                                             <div>
                                                 <h3 className="heading post-category">{categories[val.category]}</h3>
                                                 <h1 className="title post-title">{val.title}</h1>
+                                                
                                                 <p className="post-excerpt">{val.subtitle}</p>
-                                                <br />
-                                                <Link to={ '/project/' + val.id } className="button is-primary">Read More</Link>
+                                                <TagsRender tagsData={val.tags}/>
+                                                <Link to={'/project/' + val.id} className="button is-primary">Read More</Link>
                                             </div>
 
                                         </div>
