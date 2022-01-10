@@ -6,6 +6,7 @@ import Nav from './layouts/nav'
 import Footer from './layouts/footer'
 import About from './pages/about'
 import Project from './pages/project'
+import ProjectView from './pages/project-view'
 import Gallery from './pages/gallery'
 import Contact from './pages/contact'
 
@@ -42,7 +43,8 @@ class App extends Component {
             <Route path="/note/systemnote" component={SystemnoteNote} />
             <Route path="/note/week/1" component={WeekNote} />
             <Route path="/note" component={Note} />
-            <Route path="/project" component={Project} />
+            <Route exact path="/project" component={Project} />
+            <Route path="/project/:id" component={ProjectView} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contact} />
            
