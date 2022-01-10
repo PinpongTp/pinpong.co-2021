@@ -66,7 +66,7 @@ const Note = () => {
                             </Link>
                         </div>
 
-                        <div class="column is-3">
+                        {/* <div class="column is-3">
                             <Link to="note/git" className="hover-zoom-figure">
                                 <article>
                                     <figure class="image is-5by3">
@@ -76,7 +76,7 @@ const Note = () => {
                                     <span class="tag is-rounded">Git</span>
                                 </article>
                             </Link>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

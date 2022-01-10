@@ -7,10 +7,10 @@ const Gallery = () => {
 
     return (
         <div id="gallery">
-            <section class="featured section">
+            <section className="featured section">
                 <div className="container">
                     <div>
-                        <h1 class="title is-5">
+                        <h1 className="title is-5">
                             เกริ่นนำ
                         </h1>
                         <p>
@@ -44,8 +44,8 @@ const Gallery = () => {
                                     <p className="title is-4">ใจกลางเมือง</p>
                                     <p className="subtitle is-6">@pin.sree</p>
                                 </div>
-                                <div className="media-right">
-                                    <div class="">
+                                {/* <div className="media-right">
+                                    <div className="">
                                         <a href="" className="pad-text">
                                             <FontAwesomeIcon icon={faHeart} /> 32
                                         </a>
@@ -54,15 +54,15 @@ const Gallery = () => {
                                         </a>
                                     </div>
                                     
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus nec iaculis mauris. <Link to="#">@bulmaio</Link>.
-                                <Link to="#">#css</Link> <Link to="#">#responsive</Link>
+                                ความสะดวกสะบาย ที่มาพร้อมกับความวุ่นวายในใจกลางเมือง กทม 
                                 <br />
-                                <time >11:09 PM - 1 Jan 2016</time>
+                                #connonetql17 #fuljucolorsuperiaxtra400
+                                <br />
+                                {/* <time >11:09 PM - 1 Jan 2016</time> */}
                             </div>
                         </div>
                     </div>
@@ -82,11 +82,10 @@ const Gallery = () => {
                             </div>
 
                             <div className="content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus nec iaculis mauris. <Link to="#">@bulmaio</Link>.
-                                <Link to="#">#css</Link> <Link to="#">#responsive</Link>
+                                
                                 <br />
-                                <time >11:09 PM - 1 Jan 2016</time>
+                                #connonetql17 #fuljucolorsuperiaxtra400
+                                <br />
                             </div>
                         </div>
                     </div>
@@ -111,11 +110,11 @@ const Gallery = () => {
                             </div>
 
                             <div className="content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus nec iaculis mauris. <Link to="#">@bulmaio</Link>.
-                                <Link to="#">#css</Link> <Link to="#">#responsive</Link>
+                                ในความผิดพลาดมันมีสิ่งที่สวยงามเสมอ นั่นคือประสบการณ์
+                                ประสบการณ์สอนให้รู้ว่าต้องปรับโฟกัสก่อนถ่าย
                                 <br />
-                                <time >11:09 PM - 1 Jan 2016</time>
+                                #connonetql17 #fuljucolorsuperiaxtra400
+                                <br />
                             </div>
                         </div>
                     </div>
